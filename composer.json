@@ -24,7 +24,7 @@
   "require": {
     "php": "^7.2",
     "ext-json": "*",
-    "guzzlehttp/guzzle": "*"
+    "guzzlehttp/guzzle": "7.0.2.*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
