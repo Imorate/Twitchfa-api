@@ -1,0 +1,54 @@
+{
+  "name": "imorate/twitchfa-api",
+  "description": "PHP REST API client for Twitchfa.com",
+  "homepage": "https://github.com/imorate/twitchfa-api",
+  "keywords": [
+    "client",
+    "api",
+    "php",
+    "twitchfa.com",
+    "rest"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/imorate/twitchfa-api/issues?state=open",
+    "source": "https://github.com/imorate/twitchfa-api"
+  },
+  "authors": [
+    {
+      "name": "Imorate",
+      "email": "dev.imorate@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Twitchfa\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Twitchfa\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "\"vendor/bin/phpunit\""
+    ],
+    "test-cov": [
+      "\"vendor/bin/phpunit\" --coverage-clover clover.xml"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
