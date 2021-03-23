@@ -1,5 +1,6 @@
 # Twitchfa-api
 
+[![Build Status](https://travis-ci.com/Imorate/Twitchfa-api.svg?branch=main)](https://travis-ci.com/Imorate/Twitchfa-api)
 [![GitHub license](https://img.shields.io/github/license/Imorate/Twitchfa-api)](https://github.com/Imorate/Twitchfa-api/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/Imorate/Twitchfa-api)](https://github.com/Imorate/Twitchfa-api/issues)
 
