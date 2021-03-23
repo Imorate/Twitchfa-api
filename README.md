@@ -15,6 +15,21 @@ For additional information about API visit [Twitchfa v2 documentation](https://a
 * ext-json
 * guzzlehttp/guzzle
 
+## Installation
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```bash
+$ composer require imorate/twitchfa-api
+```
+or add
+
+```json
+"imorate/twitchfa-api": "^1.0"
+```
+
 ## Basic usage 
 ### Example
 
