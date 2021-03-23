@@ -1,0 +1,27 @@
+language: php
+
+php:
+  - '7.2'
+  - '7.3'
+  - '7.4'
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+install:
+  - travis_retry composer self-update && composer --version
+  - travis_retry composer update --prefer-dist --no-interaction
+
+script:
+  - composer validate --strict
+  - vendor/bin/phpunit
+
+notifications:
+  email:
+    recipients:
+      - dev.imorate@gmail.com
+    on_success: never
+    on_failure: always
