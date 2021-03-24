@@ -83,7 +83,8 @@ $result = $client->twitch()->searchStreamers('fk_orca');
 use Twitchfa\TwitchfaClient;
 
 $client = new TwitchfaClient();
-$result = $client->twitch()->getFollowing();
+$accessToken = 'eyJhbGciOiJSUzI...';
+$result = $client->twitch()->getFollowing($accessToken);
 ```
 
 [getSelf](https://api.twitchfa.com/v2/docs/#/default/TwitchController_getSelf)
@@ -91,7 +92,8 @@ $result = $client->twitch()->getFollowing();
 use Twitchfa\TwitchfaClient;
 
 $client = new TwitchfaClient();
-$result = $client->twitch()->getSelf();
+$accessToken = 'eyJhbGciOiJSUzI...';
+$result = $client->twitch()->getSelf($accessToken);
 ```
 
 [getStreamers](https://api.twitchfa.com/v2/docs/#/default/TwitchController_getStreamers)
