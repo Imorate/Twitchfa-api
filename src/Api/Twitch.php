@@ -21,6 +21,8 @@ class Twitch extends Api {
     /**
      * Get Twitch stats
      *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_getTwitchStats
+     *
      * @return array
      * @throws GuzzleException
      * @throws TransformResponseException
@@ -31,6 +33,8 @@ class Twitch extends Api {
 
     /**
      * Get banners
+     *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_getBanners
      *
      * @return array
      * @throws GuzzleException
@@ -43,6 +47,8 @@ class Twitch extends Api {
     /**
      * Get notifications
      *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_getNotifications
+     *
      * @return array
      * @throws GuzzleException
      * @throws TransformResponseException
@@ -53,6 +59,8 @@ class Twitch extends Api {
 
     /**
      * Search streamers
+     *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_searchStreamers
      *
      * @param string $name
      * @return array
@@ -73,6 +81,8 @@ class Twitch extends Api {
     /**
      * Add streamer
      *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_addStreamer
+     *
      * @param string $name
      * @return array
      * @throws GuzzleException
@@ -86,6 +96,8 @@ class Twitch extends Api {
     /**
      * Get self
      *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_getSelf
+     *
      * @param string $accessToken
      * @return array
      * @throws GuzzleException
@@ -98,6 +110,8 @@ class Twitch extends Api {
     /**
      * Get following
      *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_getFollowing
+     *
      * @param string $accessToken
      * @return array
      * @throws GuzzleException
@@ -109,6 +123,8 @@ class Twitch extends Api {
 
     /**
      * Get streamers
+     *
+     * @see https://api.twitchfa.com/v2/docs/#/default/TwitchController_getStreamers
      *
      * @param int $page
      * @param int $limit
